@@ -107,7 +107,7 @@ body {
 #heroleft .elem h1{
     position: relative;
     line-height: .9;
-    font-family: "kajiro";
+    font-family: "kajiro", sans-serif;
     src: url("Kajiro-Bold.otf");
     color: #fff;
     font-weight: 100;
@@ -118,7 +118,7 @@ body {
     pointer-events: all;
     padding: .4vw 2.7vw;
     margin-top: 3vw;
-    font-family: "kajiro";
+    font-family: "kajiro" ,sans-serif;
     src: url("Kajiro-Bold.otf");
     font-size: 2.5vw;
     font-weight: 500;
