@@ -105,6 +105,7 @@ body {
 }
 
 #heroleft .elem h1{
+    position: relative;
     line-height: .9;
     font-family: 'kajiro';
     color: #fff;
