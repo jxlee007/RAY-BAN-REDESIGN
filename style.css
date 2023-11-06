@@ -108,6 +108,7 @@ body {
     position: relative;
     line-height: .9;
     font-family: "kajiro";
+    src: url("Kajiro-Bold.otf");
     color: #fff;
     font-weight: 100;
     font-size: 11vw;
@@ -118,6 +119,7 @@ body {
     padding: .4vw 2.7vw;
     margin-top: 3vw;
     font-family: "kajiro";
+    src: url("Kajiro-Bold.otf");
     font-size: 2.5vw;
     font-weight: 500;
     letter-spacing: .2vw;
