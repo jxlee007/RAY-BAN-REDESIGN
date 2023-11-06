@@ -83,7 +83,7 @@ body {
 
 #hero{
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 0;
     transform: translate(0, -50%);
     display: flex;
@@ -99,7 +99,7 @@ body {
 }
 
 #heroleft .elem{
-    height: 9vw;
+    height: 125px;
     /* background-color: red; */
     overflow: hidden;
 }
@@ -111,7 +111,7 @@ body {
     src: url("Kajiro-Bold.otf");
     color: #fff;
     font-weight: 100;
-    font-size: 11vw;
+    font-size: 150px;
 }
 
 #heroleft button{
@@ -120,7 +120,7 @@ body {
     margin-top: 3vw;
     font-family: "kajiro" ,sans-serif;
     src: url("Kajiro-Bold.otf");
-    font-size: 2.5vw;
+    font-size: 35px;
     font-weight: 500;
     letter-spacing: .2vw;
 }
