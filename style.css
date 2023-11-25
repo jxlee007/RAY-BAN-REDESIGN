@@ -6,7 +6,7 @@
 */
 
 @import url(Gilroy-ExtraBold.otf);
-@import url(Kajiro-Bold.otf);
+@import url(kajiro-bold-webfont.woff);
 
 * {
     margin: 0;
@@ -131,7 +131,7 @@ body {
     position: relative;
     line-height: .9;
     font-family: "kajiro", sans-serif;
-    src: url("Kajiro-Bold.otf");
+    src: url("kajiro-bold-webfont.woff");
     color: #fff;
     font-weight: 100;
     font-size: 150px;
@@ -142,7 +142,7 @@ body {
     padding: .4vw 2.7vw;
     margin-top: 3vw;
     font-family: "kajiro" ,sans-serif;
-    src: url("Kajiro-Bold.otf");
+    src: url("kajiro-bold-webfont.woff");
     font-size: 35px;
     font-weight: 500;
     letter-spacing: .2vw;
