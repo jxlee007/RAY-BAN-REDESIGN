@@ -6,11 +6,13 @@
 */
 
 @font-face {
-    font-family: "kajiro", "gilroy";
-    src: url(kajiro-bold-webfont.woff);
-    src: url(Gilroy-ExtraBold.otf)
+    font-family: "kajiro";
+    src: url(./Kajiro-Bold.ttf);
 }
-
+@font-face {
+    font-family: "gilroy";
+    src: url(./Gilroy-ExtraBold.ttf)
+}
 
 * {
     margin: 0;
