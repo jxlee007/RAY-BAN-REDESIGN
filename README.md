@@ -10,3 +10,19 @@ Immerse yourself in the world of Ray-Ban through this captivating landing page. 
 - **Interactive Elements:** Engage your audience with interactive elements powered by JavaScript, providing a dynamic and user-friendly interface.
 - **CSS Styling:** Elevate the visual appeal with carefully crafted CSS styles, reflecting the sophistication and elegance associated with Ray-Ban.
 
+## Technologies Used
+- HTML5: Markup language for structuring the content.
+- CSS3: Styling language for layout and presentation.
+- JavaScript: Used for interactive elements, animations, and functionality.
+- External Libraries: Utilizes Shery JS for animations.
+
+## How to Use
+- Clone the repository.
+- Open the index.html file in a web browser to explore the website.
+  
+## Credits
+- Original Content: https://youtu.be/P3fHboyHvkg?si=wuuujm1xhw6cChQT 
+- Shery JS: https://www.npmjs.com/package/sheryjs
+
+## Author
+Jagmohan Singh Malhi
