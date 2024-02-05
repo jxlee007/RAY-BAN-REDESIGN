@@ -6,34 +6,72 @@ Shery.imageEffect("#back", { style: 5, config: { "a": { "value": 2, "range": [0,
 
 var elems = document.querySelectorAll(".elem");
 
-elems.forEach(function (elem) {
-var h1s = elem.querySelectorAll("h1");
-var index = 0;
-var animating = false;
+// elems.forEach(function (elem) {
+// var h1s = elem.querySelectorAll("h1");
+// var index = 0;
+// var animating = false;
 
-document.querySelector("#main")
-    .addEventListener("click", function() {
-        if (!animating){
-            animating = true;
+// document.querySelector("#main")
+//     .addEventListener("click", function() {
+//         if (!animating){
+//             animating = true;
 
-            gsap.to(h1s[index], {
-                duration: 1,
-                top: "-=100%",
-                ease: Expo.easeInOut,
-                onComplete: function(){
-                    gsap.set(this._targets[0], {top: "100%"});
-                    animating = false;
-                },
-            });
+//             gsap.to(h1s[index], {
+//                 duration: 1,
+//                 top: "-=100%",
+//                 ease: Expo.easeInOut,
+//                 onComplete: function(){
+//                     gsap.set(this._targets[0], {top: "100%"});
+//                     animating = false;
+//                 },
+//             });
     
-            index === h1s.length-1 ? (index = 0) : index++;
+//             index === h1s.length-1 ? (index = 0) : index++;
     
-            gsap.to(h1s[index], {
-                duration: 1,
-                top: "-=100%",
-                ease: Expo.easeInOut,
-            });
+//             gsap.to(h1s[index], {
+//                 duration: 1,
+//                 top: "-=100%",
+//                 ease: Expo.easeInOut,
+//             });
+//         }
+//     });
+// })
+
+// for mobile test
+headanim = () =>{
+    elems.forEach(function (elem) {
+        var h1s = elem.querySelectorAll("h1");
+        var index = 0;
+        var animating = false;
+    
+        function animate() {
+            if (!animating){
+                animating = true;
+    
+                gsap.to(h1s[index], {
+                    duration: 1,
+                    top: "-=100%",
+                    ease: Expo.easeInOut,
+                    onComplete: function(){
+                        gsap.set(this._targets[0], {top: "100%"});
+                        animating = false;
+                    },
+                });
+        
+                index === h1s.length-1 ? (index = 0) : index++;
+        
+                gsap.to(h1s[index], {
+                    duration: 1,
+                    top: "-=100%",
+                    ease: Expo.easeInOut,
+                });
+            }
         }
-    });
-})
-
+    
+        document.querySelector("#main")
+            .addEventListener("click", animate);
+        document.querySelector("#main")
+            .addEventListener("touchstart", animate);
+    })
+}
+headanim();
