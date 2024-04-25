@@ -22,4 +22,4 @@ Explore a seamless blend of style and functionality, featuring innovative design
 - Shery JS: https://www.npmjs.com/package/sheryjs
 
 ## Author
-Jagmohan Singh Malhi
+[Jagmohan Singh Malhi](https://www.linkedin.com/in/jagmohan-singh-malhi-a67805243/)
